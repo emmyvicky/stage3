@@ -45,22 +45,12 @@ html.body {
       background-repeat: no-repeat;
     }
   }
-  @media only screen and (min-width: 400px) {
+  /* @media only screen and (min-width: 700px) { 
     /* for tablets and mobile */
-    .img-engineer {
-      width: 100%;
-      background-size: 100%;
-      background-repeat: no-repeat;
-    }
-  }
-}
-@media only screen and (min-width: 400px) {
-  /* for tablets and mobile */
-  .bg-primary {
+  .img-engineer {
     width: 100%;
     background-size: 100%;
     background-repeat: no-repeat;
   }
 }
-
 
