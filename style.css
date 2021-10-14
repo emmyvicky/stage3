@@ -1,71 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&family=Nunito:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&family=Nunito:wght@600&display=swap");
 
-html.body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Nunito', sans-serif;
-    font-family: 'Nunito Sans', sans-serif;
+html.body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+}
+.woman-painter {
+  background-image: url(./images/hero-bg.jpg);
+  height: 100vh;
+  background-position: 50% 0%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.painting-section {
+  width: 50%;
+}
 
+.best-section {
+  margin-top: 200px;
 }
-.woman-painter{
-    background-image:url(./images/billionphotos1882993.jpg);
-    background-image: url(./images/hero-bg.jpg);
+.img-engineer {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 70vh;
+  height: 100vh;
+  background-position: center;
+}
 
-    height: 100vh;
-    background-position: 50% 0%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-}
-
-
-
-.plumbing-section{
-    display: flex;
-    flex-direction: row;
-    margin-left: 40px;
-}
-.engineering-section{
-    display: flex;
-    flex-direction: row;
-}
-.good-man{
-    width: 220vh;
-    display: flex;
-    height: 120vh;
-    margin-bottom: 0;
-}
-.good-woman{
-    width: 50%;
-    margin-top: 200px;
-
-}
-.img-engineer{
-    background-image: url("./images/billionphotos1079319min.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 70vh;
-    height: 100vh;
-    background-position: center;
-
-}
-.painting-section{
-    width: 50%;
-}
- .services{ 
-    display: flex;
-    width: 100%;
-    margin-left: 10%;
-    margin-right: 10%;
-
-}
-@media only screen and (max-width: 600px) { 
-    /* for tablets and mobile */
-  .woman-painter{ 
+@media only screen and (max-width: 600px) {
+  /* for tablets and mobile */
+  .woman-painter {
     width: 100%;
     background-size: 100%;
     background-repeat: no-repeat;
-    background-image: url(./images/hero-bg.jpg);
+    max-height: 240px;
+  }
+  @media only screen and (min-width: 400px) {
+    /* for tablets and mobile */
+    .painting-section {
+      width: 100%;
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+  }
+  /* @media only screen and (min-width: 400px) { 
+    /* for tablets and mobile */
+  .img-engineer {
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
   }
 }
