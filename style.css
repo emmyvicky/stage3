@@ -28,6 +28,7 @@ html.body {
   height: 100vh;
   background-position: center;
 }
+
 @media only screen and (max-width: 600px) {
   /* for tablets and mobile */
   .woman-painter {
@@ -42,19 +43,18 @@ html.body {
       width: 100%;
       background-size: 100%;
       background-repeat: no-repeat;
-       max-height: 240px;
     }
   }
-   @media only screen and (max-width:200px) { 
+  @media only screen and (min-width: 400px) {
     /* for tablets and mobile */
-  .img-engineer {
-    width: 100%;
-    background-size: 100%;
-    background-repeat: no-repeat;
-     max-height: 240px;
+    .img-engineer {
+      width: 100%;
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
   }
 }
-  @media only screen and (max-width: 700px) {
+@media only screen and (max-width: 600px) {
   /* for tablets and mobile */
   .bg-primary {
     width: 100%;
@@ -62,4 +62,3 @@ html.body {
     background-repeat: no-repeat;
   }
 }
-
