@@ -28,18 +28,6 @@ html.body {
   height: 100vh;
   background-position: center;
 }
-.image-1 {
-  width: 100%;
-}
-.image-2 {
-  width: 100%;
-}
-.image-3 {
-  width: 100%;
-}
-.image-4 {
-  width: 100%;
-}
 @media only screen and (max-width: 600px) {
   /* for tablets and mobile */
   .woman-painter {
